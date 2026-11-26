@@ -24,9 +24,3 @@ public class App {
         logger.info("Приложение завершило работу корректно.");
     }
 }
-    // KASITLI HATA - CI TEST ICIN
-    public static void brokenMethod() {
-        if (true) {
-            throw new RuntimeException("CI Pipeline kasitli olarak basarisiz oldu!");
-        }
-    }
